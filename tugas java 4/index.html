@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let input;
+        while (input !== "Merah Putih") {
+            input = prompt("Isi Merah Putih");
+        }
+
+        let teks = "Merah Putih";
+
+        let input1;
+        while (input1 !== "OK") {
+          input1 = prompt("Isi OK untuk melanjutkan ke Lowercase");
+        }
+
+        // 1. Ubahlah variable teks menjadi uppercase
+        let teksUppercase = teks.toUpperCase();
+        alert("Uppercase: " + teksUppercase);
+    
+        // Menunggu konfirmasi dari pengguna
+        let input2;
+        while (input2 !== "OK") {
+          input2 = prompt("Isi OK untuk melanjutkan ke Lowercase");
+        }
+    
+        // 2. Ubahlah variable teks menjadi lowercase
+        let teksLowercase = teks.toLowerCase();
+        alert("Lowercase: " + teksLowercase);
+    
+        // Menunggu konfirmasi dari pengguna
+        let input3;
+        while (input3 !== "OK") {
+          input3 = prompt("Isi OK untuk melanjutkan ke Teks Diubah");
+        }
+    
+        // 3. Ubahlah “Putih” menjadi “Muda” dalam variable teks
+        let teksDiubah = teks.replace("Putih", "Muda");
+        alert("Teks Diubah: " + teksDiubah);
+    
+        // Menunggu konfirmasi dari pengguna
+        let input4;
+        while (input4 !== "OK") {
+          input4 = prompt("Isi OK untuk melanjutkan ke Panjang Teks");
+        }
+    
+        // 4. Ukurlah Panjang (length) dari variable teks
+        let panjangTeks = teks.length;
+        alert("Panjang Teks: " + panjangTeks);
+      </script>
+</head>
+
+<body>
+</body>
+
+</html>
